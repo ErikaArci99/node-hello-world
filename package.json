@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "watch": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/ErikaArci99/node-hello-world/issues"
   },
-  "homepage": "https://github.com/ErikaArci99/node-hello-world#readme"
+  "homepage": "https://github.com/ErikaArci99/node-hello-world#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
